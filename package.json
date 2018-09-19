@@ -1,0 +1,19 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "KWEB 준스 1주차 실습",
+  "main": "index.js",
+  "author": "박지수",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "cal" : "nodemon week1.js"
+  },
+  "dependencies": {
+    "global": "^4.3.2"
+  }
+}

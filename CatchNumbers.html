@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>과제</title>
+	<style>
+		#board {
+			width: 400px;
+			border: 1px solid red;
+			border-radius: 5px;
+		}
+		#title{
+			height: 50px;
+			line-height: 50px;
+			margin: 20px 10px 20px 10px;
+			border-radius: 5px;
+			background-color: pink;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold
+		}
+		#info{
+			text-align: center;
+		}
+		.container{
+			margin: 20px;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.box{
+			display: block;
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+			border: 1px solid black;
+			border-radius: 5px;
+			box-shadow: 2px 2px 2px #000;
+			margin: 5px;
+			text-align: center;
+			font-size: 30px;
+		}
+		#button, #button2{
+			width: 150px;
+			height: 33px;
+			background-color: hotpink;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			margin: 20px 10px 10px 0px;
+			font-size: 15px;
+			text-align: center;
+			line-height: 33px;
+		}
+	</style>
+</head>
+<body>
+	<div id="board">
+		<div id="title">Catch Numbers</div>
+		<div id="info">
+			Time: <span id="time">0</span>초<br>
+			목표 숫자: <span id="goal">1</span> 
+		</div>
+		<div class="container">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">6</div>
+			<div class="box">7</div>
+			<div class="box">8</div>
+			<div class="box">9</div>
+			<div class="box">10</div>
+			<div class="box">11</div>
+			<div class="box">12</div>
+			<div class="box">13</div>
+			<div class="box">14</div>
+			<div class="box">15</div>
+			<div class="box">16</div>
+			<div class="box">17</div>
+			<div class="box">18</div>
+			<div class="box">19</div>
+			<div class="box">20</div>
+			<div class="box">21</div>
+			<div class="box">22</div>
+			<div class="box">23</div>
+			<div class="box">24</div>
+			<div class="box">25</div>
+			<div id="button">Reset</div>
+			<div id="button2">On Audio</div>
+		</div>
+	</div>
+</body>
+	<script language='JavaScript' src='./2주차.js'></script>
+</html>
