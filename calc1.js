@@ -23,4 +23,8 @@ calc.getE = function() {
 	return amth.E;
 }
 
+calc.mod = function(a, b){
+	return a % b;
+}
+
 module.exports = calc;

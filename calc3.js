@@ -20,3 +20,7 @@ exports.div = function(a, b) {
 exports.getE = function(a, b) {
 	return Math.E;
 }
+
+exports.mod = function(a, b){
+	return a % b;
+}
