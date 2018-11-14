@@ -1,7 +1,7 @@
 {
-  "name": "hw_week4",
+  "name": "week2",
   "version": "1.0.0",
-  "description": "",
+  "description": "KWEB 준스 2주차 실습",
   "main": "index.js",
   "author": "박지수",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node hw_week4_org.js",
-    "start:dev": "nodemon hw_week4_org.js"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   }
 }
