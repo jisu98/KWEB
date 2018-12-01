@@ -1,17 +1,17 @@
 const express = require('express');
 const createError = require('http-errors');
 const logger = require('morgan');
-const books = require('./books');
+const router = require('./router');
 
 const app = express();
 
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
-app.use(express.json());
+app.use (express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/', books);
+app.use('/', router);
 
 app.use((req,res,next) => {
     next(createError(404));
